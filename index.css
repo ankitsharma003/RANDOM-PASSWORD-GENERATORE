@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding-block-start: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: linear-gradient(
+    to right top,
+    #91b0de,
+    #60bfe0,
+    #4ccbc9,
+    #76d0a0,
+    #b3cd78
+  );
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+}
+.container {
+  margin: 100px auto 10px;
+  margin-left: 100px;
+  padding: 20px;
+  
+}
+.container h1 {
+  font-size: 50px;
+}
+.searchbox {
+  display: flex;
+  padding: 30px;
+}
+.searchbox input {
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 15px;
+  padding: 15px;
+  background-color: azure;
+  border: 0cap;
+  border-radius: 25px;
+}
+.searchbox img {
+  position: absolute;
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+  /* right: 70vh; */
+  left: 84vh;
+  cursor: pointer;
+}
+.generate {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px ;
+}
+.container button {
+  position: relative;
+  font-size: large;
+  left: 30px;
+  background-color: azure;
+  cursor: pointer;
+  padding: 10px;
+  width: 50%;
+  padding: 15px;
+  border-radius: 30px;
+  background: #76d0a0;
+}
+.container .input-lenght {
+  background-color: azure;
+  font-size: large;
+  width: 30%;
+  border-radius: 15px;
+}
